@@ -1,0 +1,57 @@
+#hotdogbackground {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    top: 0px;
+    left: 0px;
+    filter: brightness(40%)
+}
+
+.navlist {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    font-size: 55px;
+    list-style-type: none;
+}
+
+#home, #menu, #merch, #contact, #catering {
+    width: 350px;
+    background-color: rgba(217,217,217,0.7);
+    padding: 25px;
+}
+
+#home:hover, #menu:hover, #merch:hover, #contact:hover, #catering:hover {
+    cursor: pointer;
+    font-size: 57px;
+    width: 355px;
+    transition-delay: 0.1s;
+}
+
+li:hover {
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#bodycontainer {
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+    margin-left: 20px;
+    width: 1600px;
+}
+
+.firstpar .secondpar {
+    position: absolute;
+    padding-left: 100px;
+}
+
+.secondpar {
+    margin-top: 10px;
+}
+
+#menutitle {
+    margin-top: 40px;
+    text-align: center;
+}
